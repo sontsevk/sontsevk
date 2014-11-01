@@ -183,3 +183,9 @@ ul.children .comment-wrapper {
 	color: #a1a6a6;
 	text-shadow: 1px 1px 0 #fff;
 }
+
+.site-title-wrapper {
+	background: url("../images/faces.jpg") 50% 0% no-repeat transparent; 
+	height: 350px; 
+	background-size: 120%;
+}

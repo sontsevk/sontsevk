@@ -875,6 +875,7 @@ ul.sub-menu {
         border-color: black;
 border-width: 3px;
 border-style: solid;
+
 }
 .site-title {
 	display: inline-block;
@@ -1523,4 +1524,17 @@ ul.tweets {
 img#wpstats {
 	display: block;
 	margin: -10px 0 0 5px;
+}
+
+.header {
+	background: url("../images/faces.jpg") 50% 0% no-repeat transparent; 
+	height: 350px; 
+	background-size: 120%;
+}
+.site-title-wrapper {
+	display:none;
+}
+
+.site-description {
+	margin-top: 330px;
 }
