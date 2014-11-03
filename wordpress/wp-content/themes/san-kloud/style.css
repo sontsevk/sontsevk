@@ -1539,12 +1539,11 @@ img#wpstats {
 	margin-top: 330px;
 }
 
-@font-face {
-	font-family: 'bankgothiclightbt';
-	src: url('./fonts/bankgothiclightbt.eot');
-	src: local('fonts/bankgothiclightbt'), url('./fonts/bankgothiclightbt.woff') format('woff'), url('./fonts/bankgothiclightbt.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5206">Text with this font applied</p> */
-.fontsforweb_fontid_5206 {
-	font-family: 'bankgothiclightbt' !important;
-}
+@font-face {     font-family: 'bankgothiclightbt';     src: url('./wp-
+content/themes/san-kloud/fonts/bankgothiclightbt.eot');     src: local('./wp-
+content/themes/san-kloud/fonts/bankgothiclightbt'), url('./wp-content/themes
+/san-kloud/fonts/bankgothiclightbt.woff') format('woff'), url('./wp-
+content/themes/san-kloud/fonts/bankgothiclightbt.ttf') format('truetype'); }
+/* use this class to attach this font to any element i.e. <p
+class="fontsforweb_fontid_5206">Text with this font applied</p> */
+.fontsforweb_fontid_5206 {     font-family: 'bankgothiclightbt' !important; }
