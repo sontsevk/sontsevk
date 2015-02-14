@@ -85,9 +85,30 @@ if ($valid) {
     <!-- Содержание титула тут сделано блоком - чтобы в других шаблонах можно было легко вставить туда другой текст -->
     <title>Замовлення CD-диску "21 грам" гурту "Сонце в кишені"</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style type="text/css">
+        body {
+            background: URL('wordpress/wp-content/themes/san-kloud/colors/default/images/body-bg.png');
+            font-family: Arial;
+        }
+        .wrapper {
+            width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+        }
+        dt {
+            float: left;
+            width: 300px;
+        }
+        textarea {
+            width: 230px;
+        }
+    </style>
 </head>
 <body>
+<div class="wrapper">
 <h1>Замовлення CD-диску "21 грам" гурту "Сонце в кишені"</h1>
+<p><img src="images/sontsevk_1_360.jpg" alt="Sontse vk logo" /></p>
 <p>Ви замовили <?php echo $amount ?> диск<?php echo (($amount %10 <5) && ($amount %10 >1)) ? 'и' : ($amount %10 >1 ? 'ів' : ''); ?> гурту "Сонце в кишені".</p>
 <?php if ($valid) { ?>
     <p>Перевірте заповнені дані:</p>
@@ -145,9 +166,9 @@ exit;
             <input type="text" name="phone" id = "user-phone" value = "">
         </dd>
         <? if ($deliveryPrice > 0) { ?>
-            <dt>
+            <dd>
                 Ваша адреса:
-            </dt>
+            </dd>
             <dt>
                 <label for="user-city">Місто:</label>
             </dt>
@@ -204,7 +225,7 @@ exit;
 
     <input type="submit" value="Підтвердити замовлення">
     </form>
-
+</div>
     </body>
 </html>
 
