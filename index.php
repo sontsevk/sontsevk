@@ -8,7 +8,7 @@ body,h1,h3 {text-align: center}
 </style>
 </head>
 <body>
-<a href="wordpress/#videotop"><img src="https://pp.vk.me/c616119/v616119129/539d/38HwQRGynSg.jpg" width="35%" title = "Enter the main site"></a>
+<a href="wordpress/"><img src="https://pp.vk.me/c616119/v616119129/539d/38HwQRGynSg.jpg" width="35%" title = "Enter the main site"></a>
 <div>
 <span><a href="https://vk.com/sontsevk"><img src="vk.png" width="64px"></a> </span>
 <span><a href="https://twitter.com/SontseVK"><img src="tw.png" width="64px"></a> </span>
