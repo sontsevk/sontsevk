@@ -103,6 +103,17 @@ if ($valid) {
         textarea {
             width: 230px;
         }
+        @media screen and (max-width: 900px){
+            .wrapper {
+                width: 80%;
+            }
+            dt {
+                clear: both;
+            }
+            img {
+                width: 70%;
+            }
+        }
     </style>
 </head>
 <body>
