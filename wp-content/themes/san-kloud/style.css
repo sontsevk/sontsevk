@@ -1525,7 +1525,7 @@ img#wpstats {
 	display: block;
 	margin: -10px 0 0 5px;
 }
-
+/*
 .header {
 	background: url("../../../../../images/faces2.jpg") 50% 0% no-repeat transparent; 
 	height: 350px; 
@@ -1534,10 +1534,13 @@ img#wpstats {
 .site-title-wrapper {
 	display:none;
 }
+*/
 
 .site-description {
-	margin-top: 330px;
+//	margin-top: 330px;
+        display: none;
 }
+
 
 @font-face {     font-family: 'bankgothiclightbt';     src: url('./wp-
 content/themes/san-kloud/fonts/bankgothiclightbt.eot');     src: local('./wp-
